@@ -6,6 +6,13 @@ public class Alunos {
 	private double peso;
 	private boolean formando;
 	private char sexo;
+
+	
+	public Alunos () {
+		
+	}
+	
+	
 	
 	public Alunos (String nome, int idade, double peso, char sexo) {
 		this.nome = nome;
@@ -53,5 +60,13 @@ public class Alunos {
 	
 	public char getSexo() {
 		return sexo;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Alunos [nome=" + nome + ", idade=" + idade + ", peso=" + peso + ", formando=" + formando + ", sexo="
+				+ sexo + "]";
 	}
 }

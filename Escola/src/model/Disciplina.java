@@ -6,6 +6,15 @@ public class Disciplina {
 	private int semestre;
 	private boolean ofertada;
 	
+	
+	
+	public Disciplina() {
+		
+	}
+	
+	
+	
+	
 	public Disciplina (String nome, String professor, int semestre, boolean ofertada) {
 		this.nome = nome;
 		this.professor = professor;
@@ -43,5 +52,14 @@ public class Disciplina {
 	
 	public boolean getOfertada() {
 		return ofertada;
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Disciplina [nome=" + nome + ", professor=" + professor + ", semestre=" + semestre + ", ofertada="
+				+ ofertada + "]";
 	}
 }
