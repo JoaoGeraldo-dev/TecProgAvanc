@@ -12,8 +12,6 @@ public class Alunos {
 		
 	}
 	
-	
-	
 	public Alunos (String nome, int idade, double peso, char sexo) {
 		this.nome = nome;
 		this.idade = idade;
@@ -61,8 +59,6 @@ public class Alunos {
 	public char getSexo() {
 		return sexo;
 	}
-
-
 
 	@Override
 	public String toString() {

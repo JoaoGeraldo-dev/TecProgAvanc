@@ -4,6 +4,12 @@ public class Produto {
 	private String nome;
 	private int quantidade;
 	private double preco;
+
+	public Produto () {
+		
+	}
+	
+	
 	
 	public Produto (String nome, int quantidade, double preco) {
 		this.nome = nome;
@@ -33,5 +39,10 @@ public class Produto {
 	
 	public double getPreco() {
 		return preco;
+	}
+
+	@Override
+	public String toString() {
+		return "Produto [nome=" + nome + ", quantidade=" + quantidade + ", preco=" + preco + "]";
 	}
 }
